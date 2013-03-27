@@ -3,7 +3,7 @@ SugaredListAnimations Sample
 
 <br />Demo app for [SugareListAnimations]
 
-Donwload here.
+Donwload [here].
 
 License
 -
