@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/google_plus"
+        android:showAsAction="ifRoom"
+        android:title="Plus anim"/>
+
+    <item
+        android:id="@+id/google_now"
+        android:showAsAction="ifRoom"
+        android:title="Now anim"/>
+</menu>

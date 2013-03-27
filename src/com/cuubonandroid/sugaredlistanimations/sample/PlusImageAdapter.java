@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.cuubonandroid.sugaredlistanimations.GPlusListAdapter;
 import com.cuubonandroid.sugaredlistanimations.SpeedScrollListener;
 
-public class ImageAdapter extends GPlusListAdapter {
+public class PlusImageAdapter extends GPlusListAdapter {
   private final ImageDownloader imageDownloader = new ImageDownloader();
 
   private static final String[] URLS =
@@ -70,7 +70,7 @@ public class ImageAdapter extends GPlusListAdapter {
 
   private Context context;
 
-  public ImageAdapter(Context context, SpeedScrollListener scrollListener) {
+  public PlusImageAdapter(Context context, SpeedScrollListener scrollListener) {
     super(context, scrollListener, Arrays.asList(URLS));
     this.context = context;
   }
